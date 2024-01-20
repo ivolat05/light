@@ -2,38 +2,1088 @@
 <html lang="en">
 <head>
 
-    <meta charset="UTF-8">
-    <!-- Useful meta tags -->
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="robots" content="index, follow, noodp">
-    <meta name="googlebot" content="index, follow">
-    <meta name="google" content="notranslate">
-    <meta name="format-detection" content="telephone=no">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
+	<meta charset="UTF-8">
+	<!-- Useful meta tags -->
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="index, follow, noodp">
+	<meta name="googlebot" content="index, follow">
+	<meta name="google" content="notranslate">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
 
-    <!--favicon-->
-    <link rel="icon" href="../img/favicon/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16x16.png">
-    <link rel="manifest" href="../img/favicon/site.webmanifest">
-    <link rel="mask-icon" href="../img/favicon/safari-pinned-tab.svg" color="#403D3C">
-    <meta name="msapplication-TileColor" content="#403D3C">
-    <meta name="theme-color" content="#403D3C">
+	<!--favicon-->
+	<link rel="icon" href="assets/img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="assets/img/favicon/site.webmanifest">
+	<link rel="mask-icon" href="assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#0e1016">
+	<meta name="theme-color" content="#0e1016">
 
-    <title>Главная страница</title>
-    <link rel="stylesheet" href="assets/css/style.min.css">
+	<title>LightArt site</title>
+	<link rel="stylesheet" href="assets/css/style.min.css">
 </head>
 
 <body>
-	<header class="header"></header>
-	<main
-		style="display:flex; align-items:center; justify-content:center;padding:0; margin:0;  height:100vh; background:black; font-size:100px; text-align:center; color:#fff;">
-		HELLO WORLD
-	</main>
-	<footer class="footer"></footer>
+	<div class="page">
+		<header class="header">
+	<div class="container">
+		<div class="header__wrapp">
+			<a href="#" class="header__logo">
+				<svg xmlns="http://www.w3.org/2000/svg" width="198" height="75" viewBox="0 0 198 75" fill="none">
+					<path d="M180.362 38.652V36.4863H197.196V38.652H189.944V59.9808H187.581V38.652H180.362Z"
+						fill="white" />
+					<path
+						d="M161.9 59.9808H159.537V36.4863H168.298C170.661 36.4863 172.52 37.0988 173.877 38.3239C175.255 39.527 175.944 41.1787 175.944 43.2787C175.944 44.9632 175.517 46.3741 174.664 47.5117C173.833 48.6492 172.663 49.4258 171.153 49.8414L176.174 59.9808H173.548L168.758 50.2352H161.9V59.9808ZM161.9 38.6192V48.1023H168.364C169.983 48.1023 171.241 47.6867 172.138 46.8554C173.056 46.0022 173.516 44.8319 173.516 43.3444C173.516 41.8349 173.045 40.6755 172.105 39.8661C171.186 39.0348 169.917 38.6192 168.298 38.6192H161.9Z"
+						fill="white" />
+					<path
+						d="M136.091 59.9808H133.695L142.325 36.4863H145.246L153.974 59.9808H151.513L149.216 53.7462H138.388L136.091 59.9808ZM143.474 39.8005L139.11 51.679H148.461L144.064 39.8005C144.043 39.713 143.999 39.6036 143.933 39.4724C143.889 39.3411 143.846 39.2208 143.802 39.1114C143.78 39.002 143.769 38.9145 143.769 38.8489C143.725 39.0895 143.627 39.4067 143.474 39.8005Z"
+						fill="white" />
+					<path d="M105.315 59.9812V41.983H99.1948V37.0117H116.914V41.983H110.794V59.9812H105.315Z"
+						fill="white" />
+					<path
+						d="M73.6021 59.9812V37.0117H79.0491V45.5268H88.1056V37.0117H93.5527V59.9812H88.1056V50.4981H79.0491V59.9812H73.6021Z"
+						fill="white" />
+					<path
+						d="M58.1168 60.4734C56.3449 60.4734 54.6769 60.1999 53.1127 59.6531C51.5486 59.1062 50.1705 58.3186 48.9782 57.2905C47.797 56.2514 46.8672 54.9935 46.1891 53.5169C45.5109 52.0403 45.1719 50.3723 45.1719 48.5129C45.1719 46.6644 45.4945 45.0073 46.1399 43.5416C46.7961 42.065 47.704 40.8017 48.8634 39.7517C50.0228 38.7016 51.3682 37.9032 52.8995 37.3563C54.4308 36.7984 56.0769 36.5195 57.8379 36.5195C58.6473 36.5195 59.495 36.5852 60.3809 36.7164C61.2669 36.8367 62.1693 37.0555 63.088 37.3727C64.0068 37.6899 64.9092 38.1383 65.7952 38.718L63.531 42.9346C62.7435 42.4205 61.9068 42.0431 61.0208 41.8025C60.1348 41.5509 59.1942 41.4252 58.1988 41.4252C57.0504 41.4252 56.0167 41.5892 55.098 41.9174C54.1792 42.2455 53.3971 42.7213 52.7518 43.3447C52.1174 43.9573 51.6307 44.701 51.2916 45.5761C50.9525 46.4511 50.783 47.441 50.783 48.5457C50.783 50.1317 51.1221 51.4606 51.8002 52.5325C52.4783 53.5935 53.3971 54.3974 54.5565 54.9443C55.7159 55.4803 57.0121 55.7482 58.4449 55.7482C59.0137 55.7482 59.5551 55.699 60.0692 55.6006C60.5833 55.5021 61.0372 55.3873 61.431 55.256V51.1872H56.7386V46.8558H66.2053V58.5702C65.5162 58.964 64.6959 59.303 63.7443 59.5874C62.8037 59.8718 61.8357 60.0906 60.8403 60.2437C59.8559 60.3968 58.9481 60.4734 58.1168 60.4734Z"
+						fill="white" />
+					<path d="M33.4395 59.9812V37.0117H38.8865V59.9812H33.4395Z" fill="white" />
+					<path d="M12.749 59.9812V37.0117H18.1961V55.0099H27.4167V59.9812H12.749Z" fill="white" />
+					<path fill-rule="evenodd" clip-rule="evenodd"
+						d="M146.852 0.288086L119.241 75.0002H0.5V25.8997L146.852 0.288086ZM5.5 30.1007V70.0002H115.759L139.148 6.7124L5.5 30.1007Z"
+						fill="white" />
+				</svg>
+			</a>
+			<div class="header__menu">
+				<nav class="header__nav">
+					<ul class="header__nav-list">
+						<li class="header__nav-inner">
+							<a href="#home" class="header__menu-close header__nav-link scroll-btn">
+								Главная
+							</a>
+						</li>
+						<li class="header__nav-inner">
+							<a href="#services" class="header__menu-close header__nav-link scroll-btn">
+								Услуги
+							</a>
+						</li>
+						<li class="header__nav-inner">
+							<a href="#company" class="header__menu-close header__nav-link scroll-btn">
+								О компании
+							</a>
+						</li>
+
+						<li class="header__nav-inner">
+							<a href="#projects" class="header__menu-close header__nav-link scroll-btn">
+								Проекты
+							</a>
+						</li>
+						<li class="header__nav-inner">
+							<a href="#equipment" class="header__menu-close header__nav-link scroll-btn">
+								Оборудование
+							</a>
+						</li>
+						<li class="header__nav-inner">
+							<a href="#contacts" class="header__menu-close header__nav-link scroll-btn">
+								Контакты
+							</a>
+						</li>
+						<li class="header__nav-inner header__nav-tell">
+							<a href="tel:+79147914561" class="header__nav-tell stop-scroll">
+								+7 914 791 45 61
+							</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="header__mob-footer">
+					<h3 class="header__footer-title">
+						Связаться:
+					</h3>
+					<div class="header__footer-row">
+						<div class="header__footer-coll">
+							<a href="tel:+79147914561" target="_blank" class="header__footer-link">
+								+7 914 791 45 61
+							</a>
+							<a href="tel:+74232805300" target="_blank" class="header__footer-link">
+								+7 423 2 805 300
+							</a>
+						</div>
+						<div class="header__footer-coll">
+							<a href="#" target="_blank" class="header__footer-mess">
+								Telegram
+							</a>
+							<a href="#" target="_blank" class="header__footer-mess">
+								/ WhatsApp
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<button class="header__menu-btn header__open-menu">
+				<span class="header__open-menu-line"></span>
+			</button>
+		</div>
+	</div>
+</header>
+		<main class="main">
+			<section id="home" class="section home">
+	<div class="container">
+		<div class="home__wrapp">
+			<div class="home__wrapp-coll">
+				<h1 class="home__title">
+					Light <span>Art </span>
+				</h1>
+				<p class="home__text">
+					Профессиональное Освещение. Безупречное Шоу
+				</p>
+				<div class="home__row">
+					<div class="home__row-coll">
+						<button class="home__btn btn" data-open-modal="order">
+							Заказать
+						</button>
+						<button class="home__btn-br   btn-br" data-open-modal="order">
+							Арендовать
+						</button>
+					</div>
+					<p class="home__row-text">
+						Персональные решения для концертов, съемок, фестивалей, корпоративов
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+			<section id="services" class="section services">
+	<div class="container">
+		<div class="services__contaienr">
+			<h3 class="services-subtitle">
+				Чем мы можем помочь?
+			</h3>
+			<h4 class="services-title">
+				Наш сервис
+			</h4>
+			<div class="services__row">
+				<div class="services__box services__box-1">
+					<div class="services__box-header">
+						<div class="services__box-img">
+							<img src="assets/img/services/services-1.svg" alt="">
+						</div>
+						<div class="services__box-header-title">
+							01/04
+						</div>
+					</div>
+					<h4 class="services__box-title title-28">
+						Продажа высококачественного светового оборудования
+					</h4>
+					<p class="services__box-text title-16">
+						Профессиональное обеспечение событий современным европейским световым инвентарем.
+					</p>
+				</div>
+
+				<div class="services__box services__box-2">
+					<div class="services__box-header">
+						<div class="services__box-img">
+							<img src="assets/img/services/services-2.svg" alt="">
+						</div>
+						<div class="services__box-header-title">
+							02/04
+						</div>
+					</div>
+					<h4 class="services__box-title title-28">
+						Аренда современных технических решений для любого типа мероприятия
+					</h4>
+					<p class="services__box-text title-16">
+						Эксклюзивные световые решения, точно соответствующие вашему мероприятию.
+					</p>
+				</div>
+
+				<div class="services__box services__box-3">
+					<div class="services__box-header">
+						<div class="services__box-img">
+							<img src="assets/img/services/services-3.svg" alt="">
+						</div>
+						<div class="services__box-header-title">
+							03/04
+						</div>
+					</div>
+					<h4 class="services__box-title title-28">
+						Установка оборудования на профессиональном уровне "под ключ"
+					</h4>
+					<p class="services__box-text title-16">
+						Только кристально чистый звук
+						через передовые звуковые технологии.
+					</p>
+				</div>
+
+				<div class="services__box services__box-4">
+					<div class="services__box-header">
+						<div class="services__box-img">
+							<img src="assets/img/services/services-4.svg" alt="">
+						</div>
+						<div class="services__box-header-title">
+							04/04
+						</div>
+					</div>
+					<h4 class="services__box-title title-28">
+						Индивидуальные концепции освещения и звука
+					</h4>
+					<p class="services__box-text title-16">
+						Трансформация событий с использованием передовых технологий и инноваций.
+					</p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</section>
+			<section id="company" class="section company">
+	<div class="container">
+		<div class="company__grid">
+			<div class="company__head">
+				<div class="company__subtitle">
+					О компании
+				</div>
+				<h3 class="title company-title">
+					Профессиональное Освещение. Безупречное Шоу
+				</h3>
+
+			</div>
+			<div class="company__box-img">
+				<img src="assets/img/company.png" alt="">
+			</div>
+			<p class="compnay__text   ">
+				Light Art - это не просто компания, это команда энтузиастов, объединенных любовью к свету и искусству
+				событий. Более тысячи мероприятий каждый год становятся яркими благодаря нашей профессиональной команде
+				и передовому оборудованию.
+			</p>
+		</div>
+	</div>
+</section>
+			<section class=" show">
+	<div class="container">
+		<div class="show__wrapp">
+			<h3 class="show-title title">
+				Профессиональное Освещение. Безупречное Шоу
+			</h3>
+			<div class="show__row">
+				<div class="show__row-title show__box-1">
+					Европейское <br> оборудование
+				</div>
+				<div class="show__row-text  show__box-2">
+					Мы гордимся тем, что используем только европейское профессиональное оборудование, от ведущих мировых
+					производителей. Наш постоянно пополняющийся парк оборудования обеспечивает вас самыми современными и
+					инновационными технологиями для создания волшебных моментов на ваших мероприятиях.
+				</div>
+			</div>
+			<div class="show__row">
+				<div class="show__row-title  show__box-3">
+					Уровень качества, который меняет ваш взгляд на события
+				</div>
+				<div class="show__row-text  show__box-4">
+					Поддерживаемся высший стандарт качества в шоу-продакшене.
+					Наше новое, европейское оборудование обеспечивает надежность и производительность на уровне выше
+					ваших ожиданий. Наша забота о деталях и тщательный уход за оборудованием обеспечивают безупречный
+					опыт для каждого проекта.
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+			<section id="projects" class="section projects">
+	<div class="container">
+		<div class="projects-header">
+			<div class="company__subtitle projects__subtitle">
+				Портфолио
+			</div>
+			<h3 class="projects-title title">
+				Свет и звук, переплетенные в
+				эффектных событиях
+			</h3>
+			<p class="projects__text">
+				Каждый проект - это уникальная история, а каждое событие - это наше искусство. Погрузитесь в мир
+				визуальных
+				и звуковых впечатлений, который мы создаем, и дайте своему мероприятию моменты, которые будут помниться
+				навсегда.
+			</p>
+		</div>
+		<div class="projects__wrapp">
+
+			<div class="projects__row">
+				<h4 class="project__row-title">
+					Концерт группы
+					Кино
+				</h4>
+				<div class="project__box-img">
+					<img src="assets/img/project/project-1.png" alt="">
+				</div>
+				<div class="projects__row-body">
+					<ul class="projects__list">
+						<li class="projects__list-inner">
+							Год: 2023
+						</li>
+						<li class="projects__list-inner">
+							Место: Crocus City Hall
+						</li>
+						<li class="projects__list-inner">
+							Общая мощность: 230 кВт
+						</li>
+						<li class="projects__list-inner">
+							Кол-во оборудования: 250 шт
+						</li>
+					</ul>
+					<div class="projects__box-btn">
+						<button data-open-modal="portfolio" class="projects__btn btn">
+							Подробнее
+						</button>
+						<button data-open-modal="order" class="projects__btn-br btn-br">
+							Заказать
+						</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="projects__row">
+				<h4 class="project__row-title">
+					Vk fest
+				</h4>
+				<div class="project__box-img">
+					<img src="assets/img/project/project-2.png" alt="">
+				</div>
+				<div class="projects__row-body">
+					<ul class="projects__list">
+						<li class="projects__list-inner">
+							Год: 2023
+						</li>
+						<li class="projects__list-inner">
+							Место: Владивосток
+						</li>
+						<li class="projects__list-inner">
+							Общая мощность: 230 кВт
+						</li>
+						<li class="projects__list-inner">
+							Кол-во оборудования: 250 шт
+						</li>
+					</ul>
+					<div class="projects__box-btn">
+						<button data-open-modal="portfolio" class="projects__btn btn">
+							Подробнее
+						</button>
+						<button data-open-modal="order" class="projects__btn-br btn-br">
+							Заказать
+						</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="projects__row">
+				<h4 class="project__row-title">
+					Молодежный <br>
+					фестиваль Muus uStar
+				</h4>
+				<div class="project__box-img">
+					<img src="assets/img/project/project-3.png" alt="">
+				</div>
+				<div class="projects__row-body">
+					<ul class="projects__list">
+						<li class="projects__list-inner">
+							Год: 2022
+						</li>
+						<li class="projects__list-inner">
+							Место: город Яркутск
+						</li>
+						<li class="projects__list-inner">
+							Общая мощность: 230 кВт
+						</li>
+						<li class="projects__list-inner">
+							Кол-во оборудования: 250 шт
+						</li>
+					</ul>
+					<div class="projects__box-btn">
+						<button data-open-modal="portfolio" class="projects__btn btn">
+							Подробнее
+						</button>
+						<button data-open-modal="order" class="projects__btn-br btn-br">
+							Заказать
+						</button>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<button class="btn-br projects-btn-load">
+			Показать больше
+		</button>
+	</div>
+</section>
+			<section id="equipment" class="section equipmenty">
+	<div class="container">
+		<div class="equipmenty__wrapp">
+			<div class="equipmenty__wrapp-head">
+				<div class="company__subtitle equipmenty__subtitle">
+					Оборудование
+				</div>
+				<h3 class="equipmenty__title title">
+					Световые решения высокого уровня: наш арсенал
+				</h3>
+			</div>
+			<div class="equipmenty__row">
+				<ul class="equipmenty__list">
+					<li class="equipmenty__list-inner">
+						<label class="label equipmenty__label">
+							<input checked type="radio" name="equipmenty" class="label-input tab-input"
+								data-tab='equipmenty-1'>
+							<span class="equipmenty__label-span border-gradinet">
+								Приборы полного вращения
+							</span>
+						</label>
+					</li>
+					<li class="equipmenty__list-inner">
+						<label class="label equipmenty__label">
+							<input type="radio" name="equipmenty" class="label-input tab-input" data-tab='equipmenty-2'>
+							<span class="equipmenty__label-span border-gradinet">
+								Приборы заливного света
+							</span>
+						</label>
+					</li>
+					<li class="equipmenty__list-inner">
+						<label class="label equipmenty__label">
+							<input type="radio" name="equipmenty" class="label-input tab-input" data-tab='equipmenty-3'>
+							<span class="equipmenty__label-span border-gradinet">
+								Световые пульты
+							</span>
+						</label>
+					</li>
+					<li class="equipmenty__list-inner">
+						<label class="label equipmenty__label">
+							<input type="radio" name="equipmenty" class="label-input tab-input" data-tab='equipmenty-4'>
+							<span class="equipmenty__label-span border-gradinet">
+								Приборы следящего света
+							</span>
+						</label>
+					</li>
+					<li class="equipmenty__list-inner">
+						<label class="label equipmenty__label">
+							<input type="radio" name="equipmenty" class="label-input tab-input" data-tab='equipmenty-5'>
+							<span class="equipmenty__label-span border-gradinet">
+								Другое световое оборудование
+							</span>
+						</label>
+					</li>
+					<li class="equipmenty__list-inner">
+						<label class="label equipmenty__label">
+							<input type="radio" name="equipmenty" class="label-input tab-input" data-tab='equipmenty-6'>
+							<span class="equipmenty__label-span border-gradinet">
+								Вспомогательное оборудование
+							</span>
+						</label>
+					</li>
+				</ul>
+				<div id="equipmenty-1" class="equipmenty__box tab">
+					<div class="equipmenty__box-img">
+						<img src="assets/img/services/services-1.svg" alt="">
+					</div>
+					<div class="equipmenty__box-coll">
+						<p class="equipmenty__box-text">
+							Прокатный парк <span>Light Art</span> включает множество интеллектуальных световых приборов
+							полного
+							вращения, которые обычно составляют основную часть светового оборудования на мероприятиях.
+							Эти приборы позволяют создавать динамичные и красочные проекты, предоставляя художникам
+							безграничные возможности для оригинальных световых шоу.
+						</p>
+						<h4 class="equipmenty__box-subtitle">
+							Категория включает различные приборы
+						</h4>
+						<ul class="equipmenty__box-list">
+							<li class="equipmenty__box-list-inner">
+								LED-приборы, такие как Mac 301, Mac Aura, A7;
+							</li>
+							<li class="equipmenty__box-list-inner">
+								Приборы заливного света, такие как Vari Lite и Mac 2000 Wash;
+							</li>
+							<li class="equipmenty__box-list-inner">
+								Приборы рисующего света, такие как Showgun, Mac III Profile, Mac Viper Profile.
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div id="equipmenty-2" class="equipmenty__box tab">
+					<div class="equipmenty__box-img">
+						<img src="assets/img/services/services-2.svg" alt="">
+					</div>
+					<div class="equipmenty__box-coll">
+						<p class="equipmenty__box-text">
+							Прокатный парк Light Art включает множество интеллектуальных световых приборов полного
+							вращения, которые обычно составляют основную часть светового оборудования на мероприятиях.
+							Эти приборы позволяют создавать динамичные и красочные проекты, предоставляя художникам
+							безграничные возможности для оригинальных световых шоу.
+						</p>
+						<h4 class="equipmenty__box-subtitle">
+							Категория включает различные приборы
+						</h4>
+						<ul class="equipmenty__box-list">
+							<li class="equipmenty__box-list-inner">
+								LED-приборы, такие как Mac 301, Mac Aura, A7;
+							</li>
+							<li class="equipmenty__box-list-inner">
+								Приборы заливного света, такие как Vari Lite и Mac 2000 Wash;
+							</li>
+							<li class="equipmenty__box-list-inner">
+								Приборы рисующего света, такие как Showgun, Mac III Profile, Mac Viper Profile.
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div id="equipmenty-3" class="equipmenty__box tab">
+					<div class="equipmenty__box-img">
+						<img src="assets/img/services/services-3.svg" alt="">
+					</div>
+					<div class="equipmenty__box-coll">
+						<p class="equipmenty__box-text">
+							Прокатный парк Light Art включает множество интеллектуальных световых приборов полного
+							вращения, которые обычно составляют основную часть светового оборудования на мероприятиях.
+							Эти приборы позволяют создавать динамичные и красочные проекты, предоставляя художникам
+							безграничные возможности для оригинальных световых шоу.
+						</p>
+						<h4 class="equipmenty__box-subtitle">
+							Категория включает различные приборы
+						</h4>
+						<ul class="equipmenty__box-list">
+							<li class="equipmenty__box-list-inner">
+								LED-приборы, такие как Mac 301, Mac Aura, A7;
+							</li>
+							<li class="equipmenty__box-list-inner">
+								Приборы заливного света, такие как Vari Lite и Mac 2000 Wash;
+							</li>
+							<li class="equipmenty__box-list-inner">
+								Приборы рисующего света, такие как Showgun, Mac III Profile, Mac Viper Profile.
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div id="equipmenty-4" class="equipmenty__box tab">
+					<div class="equipmenty__box-img">
+						<img src="assets/img/services/services-4.svg" alt="">
+					</div>
+					<div class="equipmenty__box-coll">
+						<p class="equipmenty__box-text">
+							Прокатный парк Light Art включает множество интеллектуальных световых приборов полного
+							вращения, которые обычно составляют основную часть светового оборудования на мероприятиях.
+							Эти приборы позволяют создавать динамичные и красочные проекты, предоставляя художникам
+							безграничные возможности для оригинальных световых шоу.
+						</p>
+						<h4 class="equipmenty__box-subtitle">
+							Категория включает различные приборы
+						</h4>
+						<ul class="equipmenty__box-list">
+							<li class="equipmenty__box-list-inner">
+								LED-приборы, такие как Mac 301, Mac Aura, A7;
+							</li>
+							<li class="equipmenty__box-list-inner">
+								Приборы заливного света, такие как Vari Lite и Mac 2000 Wash;
+							</li>
+							<li class="equipmenty__box-list-inner">
+								Приборы рисующего света, такие как Showgun, Mac III Profile, Mac Viper Profile.
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div id="equipmenty-5" class="equipmenty__box tab">
+					<div class="equipmenty__box-img">
+						<img src="assets/img/services/services-1.svg" alt="">
+					</div>
+					<div class="equipmenty__box-coll">
+						<p class="equipmenty__box-text">
+							Прокатный парк Light Art включает множество интеллектуальных световых приборов полного
+							вращения, которые обычно составляют основную часть светового оборудования на мероприятиях.
+							Эти приборы позволяют создавать динамичные и красочные проекты, предоставляя художникам
+							безграничные возможности для оригинальных световых шоу.
+						</p>
+						<h4 class="equipmenty__box-subtitle">
+							Категория включает различные приборы
+						</h4>
+						<ul class="equipmenty__box-list">
+							<li class="equipmenty__box-list-inner">
+								LED-приборы, такие как Mac 301, Mac Aura, A7;
+							</li>
+							<li class="equipmenty__box-list-inner">
+								Приборы заливного света, такие как Vari Lite и Mac 2000 Wash;
+							</li>
+							<li class="equipmenty__box-list-inner">
+								Приборы рисующего света, такие как Showgun, Mac III Profile, Mac Viper Profile.
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div id="equipmenty-6" class="equipmenty__box tab">
+					<div class="equipmenty__box-img">
+						<img src="assets/img/services/services-2.svg" alt="">
+					</div>
+					<div class="equipmenty__box-coll">
+						<p class="equipmenty__box-text">
+							Прокатный парк Light Art включает множество интеллектуальных световых приборов полного
+							вращения, которые обычно составляют основную часть светового оборудования на мероприятиях.
+							Эти приборы позволяют создавать динамичные и красочные проекты, предоставляя художникам
+							безграничные возможности для оригинальных световых шоу.
+						</p>
+						<h4 class="equipmenty__box-subtitle">
+							Категория включает различные приборы
+						</h4>
+						<ul class="equipmenty__box-list">
+							<li class="equipmenty__box-list-inner">
+								LED-приборы, такие как Mac 301, Mac Aura, A7;
+							</li>
+							<li class="equipmenty__box-list-inner">
+								Приборы заливного света, такие как Vari Lite и Mac 2000 Wash;
+							</li>
+							<li class="equipmenty__box-list-inner">
+								Приборы рисующего света, такие как Showgun, Mac III Profile, Mac Viper Profile.
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+			<footer id="contacts" class="contacts section">
+	<div class="container">
+		<div class="contacts__wrapp">
+			<div class="contacts__header">
+				<h3 class="contacta__title title">
+					По всем
+					техническим вопросов
+				</h3>
+				<p class="contacts__text">
+					Пишите или звоните нам по телефону или в мессенджеры
+				</p>
+			</div>
+			<div class="contacts__tell-box">
+				<a href="tel:+79008007787" target="_blank" class="contactgs__tell-link">
+					+ 7 900 800 77 87
+				</a>
+				<div class="contacts__mess-box">
+					<a href="#" target="_blank" class="contacts__mess-link">
+						Telegram
+					</a>
+					<a href="#" target="_blank" class="contacts__mess-link">
+						/ WhatsApp
+					</a>
+				</div>
+			</div>
+			<form class="contacts__form">
+				<div class="contacts__form-row">
+					<div class="contacts__form-wrapper border-gradinet">
+						<input type="text" placeholder="Имя:">
+					</div>
+					<div class="contacts__form-wrapper border-gradinet">
+						<input type="tel" placeholder="Телефон:">
+					</div>
+					<div class="contacts__form-wrapper border-gradinet">
+						<input type="email" placeholder="E-mail:">
+					</div>
+				</div>
+				<div class="contactsc__form-body">
+					<button type="submit" class="contacts__form-btn btn">
+						Отправить
+					</button>
+					<div class="contacts__form-text">
+						Нажимая на кнопку, вы даете согласие на обработку персональныхданных и соглашаетесь с <a
+							href="#">политикой конфиденциальности</a>
+					</div>
+				</div>
+			</form>
+
+		</div>
+	</div>
+</footer>
+
+		</main>
+		<footer class="footer">
+	<div class="container footer-container ">
+		<div class="footer__wrapp border-gradinet">
+			<div class="footer-line">
+				<div class="footer__logo-box">
+					<div class="footer__logo">
+						<img src="assets/img/logo-white.svg" alt="">
+					</div>
+					<div class="footer__logo-text">
+						Профессиональное <br> оборудование
+					</div>
+				</div>
+				<nav class="footer__nav">
+					<ul class="footer__nav-list">
+						<li class="footer__nav-inner">
+							<a href="#home" class="border-gradinet footer__menu-close  footer__nav-link scroll-btn">
+								Главная
+							</a>
+						</li>
+						<li class="footer__nav-inner">
+							<a href="#equipment" class="border-gradinet footer__menu-close footer__nav-link scroll-btn">
+								Оборудование
+							</a>
+						</li>
+						<li class="footer__nav-inner">
+							<a href="#services" class="border-gradinet footer__menu-close footer__nav-link scroll-btn">
+								Мы делаем
+							</a>
+						</li>
+						<li class="footer__nav-inner">
+							<a href="#projects" class="border-gradinet footer__menu-close footer__nav-link scroll-btn">
+								Проекты
+							</a>
+						</li>
+						<li class="footer__nav-inner">
+							<a href="#company" class="border-gradinet footer__menu-close footer__nav-link scroll-btn">
+								О компании
+							</a>
+						</li>
+
+
+						<li class="footer__nav-inner">
+							<a href="#contacts"
+								class="border-gradinet footer__menu-close   footer__nav-link scroll-btn">
+								Контакты
+							</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="footer__contact">
+					<h3 class="footer__contact-title">
+						Контакты
+					</h3>
+					<div class="footer__contact-row">
+						<div class="footer__contact-coll">
+							<div class="footer__contact-box">
+								<h4 class="footer__contact-box-title">
+									Телефон:
+								</h4>
+								<a href="+79147914561" target="_blank" class="footer__contact-link">
+									+7 914 791 45 61
+								</a>
+								<a href="tel:+74232805300" target="_blank" class="footer__contact-link">
+									+7 423 2 805 300
+								</a>
+							</div>
+							<div class="footer__contact-box">
+								<h4 class="footer__contact-box-title">
+									E-mail:
+								</h4>
+								<a href="mailto:info@lightart.ru" target="_blank" class="footer__contact-link">
+									info@lightart.ru
+								</a>
+							</div>
+						</div>
+						<div class="footer__contact-coll">
+							<div class="footer__contact-box">
+								<h4 class="footer__contact-box-title">
+									Офис:
+								</h4>
+								<p class="footer__contact-link">
+									г. Владивосток. ул Карьерная 4
+								</p>
+							</div>
+							<div class="footer__contact-box">
+								<h4 class="footer__contact-box-title">
+									Social:
+								</h4>
+								<div class="footer__contact-grid">
+									<a href="#" target="_blank" class="footer__contact-link">
+										Telegram
+									</a>
+									<a href="#" target="_blank" class="footer__contact-link">
+										/ WhatsApp
+									</a>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+		<div id="order" class="modal__container-fon modal-background  ">
+
+	<div class="modal__container modal__container-order">
+
+		<button type="button" class="modal-btn btn__modal--close">
+			<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+				<path
+					d="M32.1346 30.3663C32.2507 30.4825 32.3428 30.6203 32.4057 30.7721C32.4686 30.9238 32.5009 31.0865 32.5009 31.2507C32.5009 31.4149 32.4686 31.5776 32.4057 31.7293C32.3428 31.8811 32.2507 32.0189 32.1346 32.1351C32.0184 32.2512 31.8806 32.3433 31.7288 32.4062C31.5771 32.469 31.4145 32.5014 31.2502 32.5014C31.086 32.5014 30.9233 32.469 30.7716 32.4062C30.6198 32.3433 30.482 32.2512 30.3658 32.1351L20.0002 21.7679L9.63458 32.1351C9.40003 32.3696 9.08191 32.5014 8.75021 32.5014C8.4185 32.5014 8.10038 32.3696 7.86583 32.1351C7.63128 31.9005 7.49951 31.5824 7.49951 31.2507C7.49951 30.919 7.63128 30.6009 7.86583 30.3663L18.233 20.0007L7.86583 9.63507C7.63128 9.40052 7.49951 9.0824 7.49951 8.75069C7.49951 8.41899 7.63128 8.10087 7.86583 7.86632C8.10038 7.63177 8.4185 7.5 8.75021 7.5C9.08191 7.5 9.40003 7.63177 9.63458 7.86632L20.0002 18.2335L30.3658 7.86632C30.6004 7.63177 30.9185 7.5 31.2502 7.5C31.5819 7.5 31.9 7.63177 32.1346 7.86632C32.3691 8.10087 32.5009 8.41899 32.5009 8.75069C32.5009 9.0824 32.3691 9.40052 32.1346 9.63507L21.7674 20.0007L32.1346 30.3663Z"
+					fill="#BEBEBE" />
+			</svg>
+		</button>
+		<form class="modal__order-coll">
+			<h3 class="modal__order-title title">
+				Оставить заявку
+			</h3>
+			<div class="modal__order-wrapp">
+				<div class="modal__order-input-wrapp">
+					<input type="text" class="modal__input" placeholder="Имя:">
+				</div>
+				<div class="modal__order-input-wrapp">
+					<input type="tel" class="modal__input" placeholder="Телефон:">
+				</div>
+				<div class="modal__order-input-wrapp">
+					<input type="email" class="modal__input" placeholder="E-mail:">
+				</div>
+				<div class="modal__order-row border-gradinet">
+					<h3 class="modal__order-row-title title-20">
+						Я хочу:
+					</h3>
+					<label class="label modal__order-label">
+						<input checked type="radio" name="order" class="label-input modal__order-label-input">
+						<span class="modal__order-label-span title-20">
+							Заказать
+						</span>
+					</label>
+					<label class="label modal__order-label">
+						<input type="radio" name="order" class="label-input modal__order-label-input">
+						<span class="modal__order-label-span title-20">
+							Арендовать
+						</span>
+					</label>
+				</div>
+			</div>
+			<p class="modal__order-text title-16">
+				Нажимая на кнопку, вы даете согласие на обработку <br> персональныхданных и соглашаетесь с <a
+					href="#">политикой конфиденциальности</a>
+
+			</p>
+			<button type="submit" class="modal-order-btn title-24 border-gradinet">
+				Отправить
+			</button>
+		</form>
+		<div class="modal__order-contact">
+			<h3 class="modal__order-contact-title title">
+				Контакты
+			</h3>
+			<div class="modal__order-contact-wrapp">
+				<div class="modal__order-contact-row">
+					<h4 class="modal__order-contact-subtitle title-24">
+						Телефон:
+					</h4>
+					<a href="tel:+79008007787" target="_blank" class="modal__order-contact-link title-24">
+						+ 7 900 800 77 87
+					</a>
+				</div>
+				<div class="modal__order-contact-row">
+					<h4 class="modal__order-contact-subtitle">
+						Офис:
+					</h4>
+					<a href="teL:+79008007787" target="_blank" class="modal__order-contact-link title-24">
+						+ 7 900 800 77 87
+					</a>
+				</div>
+				<div class="modal__order-contact-row">
+					<h4 class="modal__order-contact-subtitle title-24">
+						E-mail:
+					</h4>
+					<a href="mailto:lightart@agency" target="_blank" class="modal__order-contact-link title-24">
+						lightart@agency
+					</a>
+				</div>
+				<div class="modal__order-contact-row">
+					<h4 class="modal__order-contact-subtitle title-24">
+						Social:
+					</h4>
+					<div class="modal__order-mess">
+						<a href="#" target="_blank" class="modal__order-contact-link title-24">
+							Telegram
+						</a>
+						<a href="#" target="_blank" class="modal__order-contact-link title-24">
+							/ WhatsApp
+						</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+		<div id="portfolio" class="modal__container-fon modal-background   ">
+
+	<div class="modal__container modal__container-portfolio">
+
+		<button type="button" class="modal-btn btn__modal--close">
+			<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+				<path
+					d="M32.1346 30.3663C32.2507 30.4825 32.3428 30.6203 32.4057 30.7721C32.4686 30.9238 32.5009 31.0865 32.5009 31.2507C32.5009 31.4149 32.4686 31.5776 32.4057 31.7293C32.3428 31.8811 32.2507 32.0189 32.1346 32.1351C32.0184 32.2512 31.8806 32.3433 31.7288 32.4062C31.5771 32.469 31.4145 32.5014 31.2502 32.5014C31.086 32.5014 30.9233 32.469 30.7716 32.4062C30.6198 32.3433 30.482 32.2512 30.3658 32.1351L20.0002 21.7679L9.63458 32.1351C9.40003 32.3696 9.08191 32.5014 8.75021 32.5014C8.4185 32.5014 8.10038 32.3696 7.86583 32.1351C7.63128 31.9005 7.49951 31.5824 7.49951 31.2507C7.49951 30.919 7.63128 30.6009 7.86583 30.3663L18.233 20.0007L7.86583 9.63507C7.63128 9.40052 7.49951 9.0824 7.49951 8.75069C7.49951 8.41899 7.63128 8.10087 7.86583 7.86632C8.10038 7.63177 8.4185 7.5 8.75021 7.5C9.08191 7.5 9.40003 7.63177 9.63458 7.86632L20.0002 18.2335L30.3658 7.86632C30.6004 7.63177 30.9185 7.5 31.2502 7.5C31.5819 7.5 31.9 7.63177 32.1346 7.86632C32.3691 8.10087 32.5009 8.41899 32.5009 8.75069C32.5009 9.0824 32.3691 9.40052 32.1346 9.63507L21.7674 20.0007L32.1346 30.3663Z"
+					fill="#BEBEBE" />
+			</svg>
+		</button>
+		<h3 class="modal__portfolio-title title">
+			Концерт группы Кино
+		</h3>
+		<div class="modal__portfolio-row">
+			<div class="modal__portfolio-box border-gradinet">
+				<div class="modal__portfolio-info-head">
+					<div class="modal__portfolio-subtitle">
+						О мироприятие
+					</div>
+
+				</div>
+				<ul class="modal__portfolio-list">
+					<li class="modal__portfolio-inner">
+						Место проведения Парк Коломенское
+					</li>
+					<li class="modal__portfolio-inner">
+						Количество приборов 211
+					</li>
+					<li class="modal__portfolio-inner">
+						Общая мощность 230 кВт
+					</li>
+					<li class="modal__portfolio-inner">
+						Художник по свету Прилипко Александр
+					</li>
+					<li class="modal__portfolio-inner">
+						Дата мероприятия 02 сентября 2022 г.
+					</li>
+				</ul>
+			</div>
+			<div class="modal__portfolio-box modal__portfolio-info border-gradinet">
+				<div class="modal__portfolio-info-head">
+					<div class="modal__portfolio-subtitle">
+						Оборудование
+					</div>
+
+					<button data-open-modal="order" type="button" class="btn modal__portfolio-btn">
+						Заказать
+					</button>
+				</div>
+				<div class="modal__portfolio-info-row">
+					<ul class="modal__portfolio-list modal__portfolio-list-info">
+						<li class="modal__portfolio-inner">
+							46 x MARTIN МАС Quantum Wash
+						</li>
+						<li class="modal__portfolio-inner">
+							8 x MARTIN МАС-III Perfоrmance
+						</li>
+						<li class="modal__portfolio-inner">
+							34 x EK-Lighting SHARK BSW IP65
+						</li>
+						<li class="modal__portfolio-inner">
+							39 x SGM P-5 Wash
+						</li>
+						<li class="modal__portfolio-inner">
+							23 x GLP impression JDC1
+						</li>
+						<li class="modal__portfolio-inner">
+							45 x Chromlech JARAG-5 PAR30
+						</li>
+
+					</ul>
+					<ul class="modal__portfolio-list modal__portfolio-list-info">
+						<li class="modal__portfolio-inner">
+							6 x ROBE BMFL FollowSpot
+						</li>
+						<li class="modal__portfolio-inner">
+							8 x MDG - Atmosphere
+						</li>
+						<li class="modal__portfolio-inner">
+							1 x Grand MA2 Full size
+						</li>
+						<li class="modal__portfolio-inner">
+							1 x Grand MA2 Light
+						</li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="moda__swiper-container">
+			<div class="modal__swiper-head">
+
+				<div class="modal__swiper-head-wrapper swiper-wrapper">
+					<div class="modal__head-slide swiper-slide">
+						<img src="assets/img/swiper.png" alt="">
+					</div>
+					<div class="modal__head-slide swiper-slide">
+						<img src="assets/img/swiper.png" alt="">
+					</div>
+					<div class="modal__head-slide swiper-slide">
+						<img src="assets/img/swiper.png" alt="">
+					</div>
+					<div class="modal__head-slide swiper-slide">
+						<img src="assets/img/swiper.png" alt="">
+					</div>
+					<div class="modal__head-slide swiper-slide">
+						<img src="assets/img/swiper.png" alt="">
+					</div>
+					<div class="modal__head-slide swiper-slide">
+						<img src="assets/img/swiper.png" alt="">
+					</div>
+					<div class="modal__head-slide swiper-slide">
+						<img src="assets/img/swiper.png" alt="">
+					</div>
+					<div class="modal__head-slide swiper-slide">
+						<img src="assets/img/swiper.png" alt="">
+					</div>
+					<div class="modal__head-slide swiper-slide">
+						<img src="assets/img/swiper.png" alt="">
+					</div>
+					<div class="modal__head-slide swiper-slide">
+						<img src="assets/img/swiper.png" alt="">
+					</div>
+				</div>
+				<div class="modal__swiper-scrollbar swiper-scrollbar"></div>
+			</div>
+			<div class="modal__swiper-container-row">
+				<div class="modal__swiper-body">
+					<div class="modal__swiper-body-wrapper swiper-wrapper">
+						<div class="modal__body-slide swiper-slide">
+							<img src="assets/img/swiper.png" alt="">
+						</div>
+						<div class="modal__body-slide swiper-slide">
+							<img src="assets/img/swiper.png" alt="">
+						</div>
+						<div class="modal__body-slide swiper-slide">
+							<img src="assets/img/swiper.png" alt="">
+						</div>
+						<div class="modal__body-slide swiper-slide">
+							<img src="assets/img/swiper.png" alt="">
+						</div>
+						<div class="modal__body-slide swiper-slide">
+							<img src="assets/img/swiper.png" alt="">
+						</div>
+						<div class="modal__body-slide swiper-slide">
+							<img src="assets/img/swiper.png" alt="">
+						</div>
+						<div class="modal__body-slide swiper-slide">
+							<img src="assets/img/swiper.png" alt="">
+						</div>
+						<div class="modal__body-slide swiper-slide">
+							<img src="assets/img/swiper.png" alt="">
+						</div>
+						<div class="modal__body-slide swiper-slide">
+							<img src="assets/img/swiper.png" alt="">
+						</div>
+						<div class="modal__body-slide swiper-slide">
+							<img src="assets/img/swiper.png" alt="">
+						</div>
+					</div>
+				</div>
+				<button class="modal__swiper-btn modal__swiper-next">
+					<svg xmlns="http://www.w3.org/2000/svg" width="43" height="43" viewBox="0 0 43 43" fill="none">
+						<path
+							d="M21.5 0.78125C17.4022 0.78125 13.3965 1.99638 9.98929 4.27299C6.58211 6.54959 3.92653 9.78542 2.35838 13.5713C0.790227 17.3571 0.379927 21.523 1.17936 25.542C1.9788 29.5611 3.95207 33.2528 6.84964 36.1504C9.74721 39.0479 13.4389 41.0212 17.458 41.8206C21.477 42.6201 25.6429 42.2098 29.4287 40.6416C33.2146 39.0735 36.4504 36.4179 38.727 33.0107C41.0036 29.6035 42.2188 25.5978 42.2188 21.5C42.213 16.0068 40.0282 10.7403 36.144 6.85604C32.2597 2.97178 26.9932 0.787051 21.5 0.78125ZM21.5 39.0312C18.0327 39.0312 14.6432 38.0031 11.7602 36.0767C8.87717 34.1503 6.63014 31.4123 5.30325 28.2089C3.97635 25.0055 3.62917 21.4806 4.30562 18.0798C4.98206 14.6791 6.65175 11.5553 9.10354 9.10353C11.5553 6.65175 14.6791 4.98206 18.0798 4.30561C21.4806 3.62916 25.0055 3.97634 28.2089 5.30324C31.4123 6.63014 34.1504 8.87716 36.0767 11.7602C38.0031 14.6432 39.0313 18.0326 39.0313 21.5C39.026 26.148 37.1773 30.604 33.8907 33.8906C30.604 37.1772 26.148 39.026 21.5 39.0312ZM27.4088 20.3724C27.557 20.5204 27.6746 20.6962 27.7548 20.8897C27.835 21.0832 27.8763 21.2906 27.8763 21.5C27.8763 21.7094 27.835 21.9168 27.7548 22.1103C27.6746 22.3038 27.557 22.4796 27.4088 22.6276L19.4401 30.5963C19.292 30.7444 19.1162 30.8619 18.9228 30.942C18.7293 31.0221 18.5219 31.0634 18.3125 31.0634C18.1031 31.0634 17.8957 31.0221 17.7023 30.942C17.5088 30.8619 17.333 30.7444 17.1849 30.5963C17.0369 30.4483 16.9194 30.2725 16.8393 30.079C16.7591 29.8855 16.7179 29.6782 16.7179 29.4688C16.7179 29.2593 16.7591 29.052 16.8393 28.8585C16.9194 28.665 17.0369 28.4892 17.1849 28.3412L24.0281 21.5L17.1849 14.6588C16.8859 14.3598 16.7179 13.9542 16.7179 13.5312C16.7179 13.1083 16.8859 12.7027 17.1849 12.4037C17.484 12.1046 17.8896 11.9366 18.3125 11.9366C18.7354 11.9366 19.141 12.1046 19.4401 12.4037L27.4088 20.3724Z"
+							fill="#B8B8D4" />
+					</svg>
+				</button>
+			</div>
+		</div>
+
+
+
+	</div>
+</div>
+	</div>
 	<script src="../assets/js/app.min.js"></script>
 </body>
 
