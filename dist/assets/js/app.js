@@ -143,10 +143,11 @@ if (navLinkNodes) {
 	}
 
 	function changeNavActiveLink(newNavLinkNode) {
-		for (let i = 0; i < navLinkNodes.length; i++) {
-			navLinkNodes[i].classList.remove(navLinkActiveClassName);
-		}
-		newNavLinkNode.classList.add(navLinkActiveClassName);
+		// для отоброжения на каком блоке сейчас находимся разкоментировать
+		// for (let i = 0; i < navLinkNodes.length; i++) {
+		// 	navLinkNodes[i].classList.remove(navLinkActiveClassName);
+		// }
+		// newNavLinkNode.classList.add(navLinkActiveClassName);
 	}
 
 	function setActiveLinkByScroll() {
