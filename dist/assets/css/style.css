@@ -1953,9 +1953,6 @@ input:checked + .modal__order-label-span::after {
     border-radius: 40px 40px 0 0;
     border: 3px solid rgba(0, 0, 0, 0);
     border-bottom: none;
-    -webkit-transition: 0.4s;
-    -o-transition: 0.4s;
-    transition: 0.4s;
   }
 }
 @media (max-width: 992px) {
@@ -2368,9 +2365,6 @@ input:checked + .modal__order-label-span::after {
     position: absolute;
     left: 0;
     top: 100%;
-    -webkit-transition: 0.4s;
-    -o-transition: 0.4s;
-    transition: 0.4s;
     -webkit-transform: translate(-300%, -300%);
         -ms-transform: translate(-300%, -300%);
             transform: translate(-300%, -300%);
@@ -2434,7 +2428,6 @@ input:checked + .modal__order-label-span::after {
 
 .header__menu::-webkit-scrollbar {
   width: 4px;
-  /* ширина всей полосы прокрутки */
 }
 
 .header__menu::-webkit-scrollbar-track {
