@@ -318,3 +318,6 @@ function tabActive(inputs) {
 	});
 }
 
+AOS.init({ 
+	once: true,
+});
