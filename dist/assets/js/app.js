@@ -123,7 +123,7 @@ if (navLinkNodes) {
 
 	function startAnimationScroll(newScrollY) {
 		const deltaScroll = newScrollY - currentScroll;
-		let paddinTop = 130;
+		let paddinTop = 30;
 		currentScroll += deltaScroll * 0.05;
 		window.scrollTo(0, currentScroll - paddinTop);
 
