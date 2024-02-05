@@ -3016,10 +3016,6 @@ input:checked + .modal__order-label-span::after {
   -o-object-fit: cover;
      object-fit: cover;
   display: block;
-  border-radius: 34px;
-  overflow: hidden;
-  display: block;
-  border: 3px solid rgba(150, 133, 255, 0.2);
 }
 @media (max-width: 1200px) {
   .company__box-img {
